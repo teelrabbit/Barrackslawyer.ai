@@ -206,21 +206,23 @@ export default function ChatApp() {
       <button
         onClick={toggleSidebar}
         className="lg:hidden fixed top-4 left-4 z-50 p-2 rounded-md bg-gray-200"
-        style={{ zIndex: 1000 }} // Ensure the button is on top
+        style={{ zIndex: 1000 }}
       >
         ☰
       </button>
 
+      {/*
       <a
-        href="https://github.com/RafalWilinski/cloudflare-rag"
+        href="https://github.com/teelrabbit/Barrackslawyer.ai"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed top-0 left-1/2 transform -translate-x-1/2 flex items-center gap-2 bg-white p-2 rounded-full border border-gray-200 px-4 cursor-pointer mt-1 opacity-100 z-50"
-        style={{ zIndex: 1000 }} // Ensure the link is on top
+        style={{ zIndex: 1000 }}
       >
         <IconBrandGithub className="w-4 h-4" />
         <AnimatedShinyText>Fork or star on Github</AnimatedShinyText>
       </a>
+      */}
 
       {/* Sidebar */}
       <div
